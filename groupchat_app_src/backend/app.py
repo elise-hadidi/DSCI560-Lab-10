@@ -31,8 +31,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Serve frontend
-app.mount("/static", StaticFiles(directory="../frontend"), name="static")
 
 manager = ConnectionManager()
 
@@ -166,3 +164,6 @@ from fastapi.responses import FileResponse
 @app.get("/")
 async def serve_index():
     return FileResponse("../frontend/index.html")
+
+# Serve frontend
+app.mount("/", StaticFiles(directory="../frontend"), name="static")
