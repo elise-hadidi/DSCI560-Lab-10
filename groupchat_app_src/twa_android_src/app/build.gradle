@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.helloworld.groupchat.twa'
+    namespace 'com.landlord.groupchat.twa'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.helloworld.groupchat.twa"
+        applicationId "com.landlord.groupchat.twa"
         minSdk 21
         targetSdk 34
         versionCode 1
