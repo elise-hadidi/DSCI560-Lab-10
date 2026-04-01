@@ -5,7 +5,7 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.helloworld.groupchat.twa",
+      "package_name": "com.landlord.groupchat.twa",
       "sha256_cert_fingerprints": [
         "0A:12:FA:C8:5A:64:4A:D9:3A:BE:1A:38:89:EC:FE:89:98:2F:F5:1A:C0:1E:B4:77:9F:A8:4A:5E:EA:8C:CB:55"
       ]
